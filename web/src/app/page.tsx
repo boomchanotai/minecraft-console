@@ -27,12 +27,12 @@ const Home = () => {
           )}
         </InfoCard>
         <InfoCard title="Players" description="Online Players">
-          {isPlayersLoading ? (
-            <div>Loading...</div>
-          ) : (
+          {serverOnlineStatus?.status ? (
             <div>
-              {players?.players} / {players?.maxPlayers}
+              {players?.players || 0} / {players?.maxPlayers || 0}
             </div>
+          ) : (
+            <div>0 / 0</div>
           )}
         </InfoCard>
         <InfoCard title="Action">

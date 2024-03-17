@@ -60,7 +60,7 @@ const Console = () => {
     <div className="space-y-4">
       <div
         ref={consoleRef}
-        className="bg-slate-800 rounded font-jetBrains text-white p-4 max-h-96 overflow-auto scroll-smooth"
+        className="bg-slate-800 rounded font-jetBrains text-white p-4 h-96 overflow-auto scroll-smooth"
       >
         {logs.map((log, index) => (
           <div key={index} className="font-jetBrains">
