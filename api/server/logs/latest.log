@@ -149,3 +149,20 @@
 [16:56:11] [Server thread/INFO]: Thread RCON Listener started
 [16:56:11] [Server thread/INFO]: RCON running on 0.0.0.0:25575
 [16:56:15] [RCON Listener #1/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 started
+[16:57:11] [Server thread/INFO]: [Not Secure] [Rcon] hi
+[16:58:23] [Server thread/INFO]: [Not Secure] [Rcon] hi
+[16:58:27] [Server thread/INFO]: [Not Secure] [Rcon] kadsld
+[16:58:34] [Server thread/INFO]: [Rcon: Stopping the server]
+[16:58:34] [Server thread/INFO]: Stopping server
+[16:58:34] [Server thread/INFO]: Saving players
+[16:58:34] [Server thread/INFO]: Saving worlds
+[16:58:37] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[16:58:37] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[16:58:37] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[16:58:37] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[16:58:37] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[16:58:37] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[16:58:37] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[16:58:37] [Server thread/INFO]: Thread RCON Listener stopped
+[16:58:37] [RCON Client /0:0:0:0:0:0:0:1 #2/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 shutting down
+[16:58:37] [Server thread/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 stopped

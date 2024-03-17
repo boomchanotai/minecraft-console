@@ -7,10 +7,14 @@ import {
   SpigotStartServerResponse,
   SpigotStopServerResponse,
 } from 'src/dto/spigot.dto';
+import { RconService } from 'src/rcon/rcon.service';
 
 @Controller('/spigot')
 export class SpigotController {
-  constructor(private readonly spigotService: SpigotService) {}
+  constructor(
+    private readonly spigotService: SpigotService,
+    private readonly rconService: RconService,
+  ) {}
 
   @Sse('console')
   async sendEvent(): Promise<Observable<MessageEvent>> {
@@ -32,6 +36,6 @@ export class SpigotController {
 
   @Post('/stop')
   async stopServer(): Promise<SpigotStopServerResponse> {
-    return await this.spigotService.stopServer();
+    return await this.rconService.sendCommand('stop');
   }
 }

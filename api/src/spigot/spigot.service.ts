@@ -1,12 +1,8 @@
 import { Injectable } from '@nestjs/common';
 import { exec } from 'child_process';
-import { rcon } from 'src/utils/rcon';
 import * as fs from 'fs';
 import { Observable } from 'rxjs';
-import {
-  SpigotStartServerResponse,
-  SpigotStopServerResponse,
-} from 'src/dto/spigot.dto';
+import { SpigotStartServerResponse } from 'src/dto/spigot.dto';
 
 @Injectable()
 export class SpigotService {
@@ -17,14 +13,6 @@ export class SpigotService {
     return {
       status: true,
       message: 'Server started',
-    };
-  }
-
-  async stopServer(): Promise<SpigotStopServerResponse> {
-    await rcon.send('stop');
-    return {
-      status: true,
-      message: 'Server stopped',
     };
   }
 
