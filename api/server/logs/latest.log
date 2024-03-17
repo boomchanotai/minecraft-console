@@ -154,3 +154,9 @@
 [20:19:39] [RCON Listener #1/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 started
 [20:19:54] [RCON Client /0:0:0:0:0:0:0:1 #4/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 shutting down
 [20:20:55] [RCON Listener #1/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 started
+[20:26:08] [User Authenticator #1/INFO]: UUID of player o0KoonBoom0o is 67f6a6f6-f4a6-4496-9a84-1217f238033b
+[20:26:08] [Server thread/INFO]: o0KoonBoom0o joined the game
+[20:26:09] [Server thread/INFO]: o0KoonBoom0o[/127.0.0.1:64239] logged in with entity id 308 at ([world]58.80864701922981, 78.0, -38.69154165858588)
+[20:26:15] [Server thread/INFO]: o0KoonBoom0o lost connection: Disconnected
+[20:26:15] [Server thread/INFO]: o0KoonBoom0o left the game
+[20:26:15] [Server thread/WARN]: handleDisconnection() called twice

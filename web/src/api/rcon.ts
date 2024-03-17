@@ -1,4 +1,5 @@
 import {
+  RconPlayersDto,
   RconSendCommandDto,
   RconServerOnlineStatusDto,
 } from "@/types/rcon.dto";
@@ -23,4 +24,12 @@ const serverOnlineStatus = async () => {
   return res.data;
 };
 
-export { sendCommand, serverOnlineStatus };
+const getPlayers = async () => {
+  const res = await axios.get<RconPlayersDto>(
+    `${import.meta.env.VITE_API_URL}/rcon/players`
+  );
+
+  return res.data;
+};
+
+export { sendCommand, serverOnlineStatus, getPlayers };

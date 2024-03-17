@@ -7,4 +7,10 @@ interface RconServerOnlineStatusDto {
   status: boolean;
 }
 
-export type { RconSendCommandDto, RconServerOnlineStatusDto };
+interface RconPlayersDto {
+  status: boolean;
+  players: number;
+  maxPlayers: number;
+}
+
+export type { RconSendCommandDto, RconServerOnlineStatusDto, RconPlayersDto };
