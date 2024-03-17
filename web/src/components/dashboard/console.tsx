@@ -27,7 +27,7 @@ const Console = () => {
   );
 
   useEffect(() => {
-    if (isLoading || !serverOnlineStatus.status) return;
+    if (isLoading || !serverOnlineStatus?.status) return;
 
     const sse = new EventSource(
       `${import.meta.env.VITE_API_URL}/spigot/console`
