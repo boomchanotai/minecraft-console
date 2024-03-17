@@ -3,19 +3,29 @@ import { exec } from 'child_process';
 import { rcon } from 'src/utils/rcon';
 import * as fs from 'fs';
 import { Observable } from 'rxjs';
+import {
+  SpigotStartServerResponse,
+  SpigotStopServerResponse,
+} from 'src/dto/spigot.dto';
 
 @Injectable()
 export class SpigotService {
-  async startServer(): Promise<string> {
+  async startServer(): Promise<SpigotStartServerResponse> {
     exec(
       'cd server; nohup java -jar -Xms1G -Xmx2G -jar spigot-1.20.1.jar --nogui &',
     );
-    return 'Server started';
+    return {
+      status: true,
+      message: 'Server started',
+    };
   }
 
-  async stopServer(): Promise<string> {
+  async stopServer(): Promise<SpigotStopServerResponse> {
     await rcon.send('stop');
-    return 'Server stopped';
+    return {
+      status: true,
+      message: 'Server stopped',
+    };
   }
 
   async getLogs(): Promise<string[]> {

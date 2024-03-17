@@ -1,290 +1,151 @@
-[01:51:01] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[01:51:04] [ServerMain/INFO]: Loaded 7 recipes
-[01:51:04] [Server thread/INFO]: Starting minecraft server version 1.20.1
-[01:51:04] [Server thread/INFO]: Loading properties
-[01:51:04] [Server thread/INFO]: This server is running CraftBukkit version 3871-Spigot-d2eba2c-3f9263b (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT)
-[01:51:05] [Server thread/INFO]: Debug logging is disabled
-[01:51:05] [Server thread/INFO]: Using 4 threads for Netty based IO
-[01:51:05] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[01:51:05] [Server thread/INFO]: Default game type: SURVIVAL
-[01:51:05] [Server thread/INFO]: Generating keypair
-[01:51:05] [Server thread/INFO]: Starting Minecraft server on *:25565
-[01:51:05] [Server thread/INFO]: Using default channel type
-[01:51:05] [Server thread/INFO]: Preparing level "world"
-[01:51:05] [Server thread/INFO]: -------- World Settings For [world] --------
-[01:51:05] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[01:51:05] [Server thread/INFO]: Item Despawn Rate: 6000
-[01:51:05] [Server thread/INFO]: Item Merge Radius: 2.5
-[01:51:05] [Server thread/INFO]: View Distance: 10
-[01:51:05] [Server thread/INFO]: Simulation Distance: 10
-[01:51:05] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[01:51:05] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[01:51:05] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[01:51:05] [Server thread/INFO]: Experience Merge Radius: 3.0
-[01:51:05] [Server thread/INFO]: Mob Spawn Range: 6
-[01:51:05] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[01:51:05] [Server thread/INFO]: Cane Growth Modifier: 100%
-[01:51:05] [Server thread/INFO]: Melon Growth Modifier: 100%
-[01:51:05] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[01:51:05] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[01:51:05] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[01:51:05] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[01:51:05] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[01:51:05] [Server thread/INFO]: Potato Growth Modifier: 100%
-[01:51:05] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[01:51:05] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[01:51:05] [Server thread/INFO]: Vine Growth Modifier: 100%
-[01:51:05] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[01:51:05] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[01:51:05] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[01:51:05] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[01:51:05] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
-[01:51:05] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
-[01:51:05] [Server thread/INFO]: CaveVines Growth Modifier: 100%
-[01:51:05] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
-[01:51:05] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
-[01:51:05] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
-[01:51:05] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[01:51:05] [Server thread/INFO]: Max TNT Explosions: 100
-[01:51:05] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[01:51:06] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[01:51:06] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[01:51:06] [Server thread/INFO]: Item Despawn Rate: 6000
-[01:51:06] [Server thread/INFO]: Item Merge Radius: 2.5
-[01:51:06] [Server thread/INFO]: View Distance: 10
-[01:51:06] [Server thread/INFO]: Simulation Distance: 10
-[01:51:06] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[01:51:06] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[01:51:06] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[01:51:06] [Server thread/INFO]: Experience Merge Radius: 3.0
-[01:51:06] [Server thread/INFO]: Mob Spawn Range: 6
-[01:51:06] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[01:51:06] [Server thread/INFO]: Cane Growth Modifier: 100%
-[01:51:06] [Server thread/INFO]: Melon Growth Modifier: 100%
-[01:51:06] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[01:51:06] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[01:51:06] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[01:51:06] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[01:51:06] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[01:51:06] [Server thread/INFO]: Potato Growth Modifier: 100%
-[01:51:06] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[01:51:06] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[01:51:06] [Server thread/INFO]: Vine Growth Modifier: 100%
-[01:51:06] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[01:51:06] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[01:51:06] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[01:51:06] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[01:51:06] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
-[01:51:06] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
-[01:51:06] [Server thread/INFO]: CaveVines Growth Modifier: 100%
-[01:51:06] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
-[01:51:06] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
-[01:51:06] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
-[01:51:06] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[01:51:06] [Server thread/INFO]: Max TNT Explosions: 100
-[01:51:06] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[01:51:07] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[01:51:07] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[01:51:07] [Server thread/INFO]: Item Despawn Rate: 6000
-[01:51:07] [Server thread/INFO]: Item Merge Radius: 2.5
-[01:51:07] [Server thread/INFO]: View Distance: 10
-[01:51:07] [Server thread/INFO]: Simulation Distance: 10
-[01:51:07] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[01:51:07] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[01:51:07] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[01:51:07] [Server thread/INFO]: Experience Merge Radius: 3.0
-[01:51:07] [Server thread/INFO]: Mob Spawn Range: 6
-[01:51:07] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[01:51:07] [Server thread/INFO]: Cane Growth Modifier: 100%
-[01:51:07] [Server thread/INFO]: Melon Growth Modifier: 100%
-[01:51:07] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[01:51:07] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[01:51:07] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[01:51:07] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[01:51:07] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[01:51:07] [Server thread/INFO]: Potato Growth Modifier: 100%
-[01:51:07] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[01:51:07] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[01:51:07] [Server thread/INFO]: Vine Growth Modifier: 100%
-[01:51:07] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[01:51:07] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[01:51:07] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[01:51:07] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[01:51:07] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
-[01:51:07] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
-[01:51:07] [Server thread/INFO]: CaveVines Growth Modifier: 100%
-[01:51:07] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
-[01:51:07] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
-[01:51:07] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
-[01:51:07] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[01:51:07] [Server thread/INFO]: Max TNT Explosions: 100
-[01:51:07] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[01:51:07] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[01:51:10] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[01:51:10] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[01:51:10] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[01:51:10] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[01:51:10] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[01:51:10] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[01:51:10] [Worker-Main-6/INFO]: Preparing spawn area: 5%
-[01:51:11] [Worker-Main-7/INFO]: Preparing spawn area: 22%
-[01:51:11] [Worker-Main-1/INFO]: Preparing spawn area: 68%
-[01:51:12] [Worker-Main-7/INFO]: Preparing spawn area: 82%
-[01:51:12] [Worker-Main-2/INFO]: Preparing spawn area: 83%
-[01:51:13] [Worker-Main-5/INFO]: Preparing spawn area: 84%
-[01:51:13] [Worker-Main-6/INFO]: Preparing spawn area: 85%
-[01:51:14] [Worker-Main-3/INFO]: Preparing spawn area: 86%
-[01:51:14] [Worker-Main-6/INFO]: Preparing spawn area: 90%
-[01:51:15] [Worker-Main-2/INFO]: Preparing spawn area: 98%
-[01:51:15] [Server thread/INFO]: Time elapsed: 7586 ms
-[01:51:15] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[01:51:16] [Worker-Main-7/INFO]: Preparing spawn area: 0%
-[01:51:16] [Worker-Main-7/INFO]: Preparing spawn area: 0%
-[01:51:16] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[01:51:16] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[01:51:17] [Worker-Main-7/INFO]: Preparing spawn area: 54%
-[01:51:17] [Worker-Main-6/INFO]: Preparing spawn area: 69%
-[01:51:18] [Worker-Main-5/INFO]: Preparing spawn area: 76%
-[01:51:19] [Worker-Main-5/INFO]: Preparing spawn area: 82%
-[01:51:19] [Worker-Main-4/INFO]: Preparing spawn area: 84%
-[01:51:19] [Worker-Main-7/INFO]: Preparing spawn area: 89%
-[01:51:20] [Worker-Main-1/INFO]: Preparing spawn area: 93%
-[01:51:21] [Worker-Main-7/INFO]: Preparing spawn area: 98%
-[01:51:21] [Server thread/INFO]: Time elapsed: 5842 ms
-[01:51:21] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[01:51:21] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[01:51:21] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[01:51:22] [Worker-Main-7/INFO]: Preparing spawn area: 73%
-[01:51:22] [Server thread/INFO]: Time elapsed: 1293 ms
-[01:51:22] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[01:51:22] [Server thread/INFO]: Done (16.892s)! For help, type "help"
-[01:51:22] [Server thread/INFO]: Starting remote control listener
-[01:51:22] [Server thread/INFO]: Thread RCON Listener started
-[01:51:22] [Server thread/INFO]: RCON running on 0.0.0.0:25575
-[01:51:24] [RCON Listener #1/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 started
-[01:51:24] [Server thread/INFO]: [Not Secure] [Rcon] fuck yo1u
-[01:51:36] [Server thread/INFO]: [Not Secure] [Rcon] fuck yo1u
-[01:51:48] [Server thread/INFO]: [Not Secure] [Rcon] fuck yo1u
-[01:52:02] [RCON Client /0:0:0:0:0:0:0:1 #2/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 shutting down
-[01:53:28] [RCON Listener #1/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 started
-[01:53:36] [Server thread/INFO]: [Not Secure] [Rcon] fuck yo1u
-[01:56:18] [RCON Client /0:0:0:0:0:0:0:1 #3/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 shutting down
-[02:13:01] [RCON Listener #1/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 started
-[02:13:01] [Server thread/INFO]: [Not Secure] [Rcon] fuck yo1u
-[02:13:02] [Server thread/INFO]: [Not Secure] [Rcon] fuck yo1u
-[02:13:03] [Server thread/INFO]: [Not Secure] [Rcon] fuck yo1u
-[02:14:16] [Server thread/INFO]: [Not Secure] [Rcon] fuck yxxo1u
-[02:14:20] [Server thread/INFO]: [Not Secure] [Rcon] fuck yxxo1u
-[02:14:22] [Server thread/INFO]: [Not Secure] [Rcon] fuck yxxo1u
-[02:14:22] [Server thread/INFO]: [Not Secure] [Rcon] fuck yxxo1u
-[02:14:23] [Server thread/INFO]: [Not Secure] [Rcon] fuck yxxo1u
-[02:14:23] [Server thread/INFO]: [Not Secure] [Rcon] fuck yxxo1u
-[02:14:24] [Server thread/INFO]: [Not Secure] [Rcon] fuck yxxo1u
-[02:14:24] [Server thread/INFO]: [Not Secure] [Rcon] fuck yxxo1u
-[02:14:25] [Server thread/INFO]: [Not Secure] [Rcon] fuck yxxo1u
-[02:14:25] [Server thread/INFO]: [Not Secure] [Rcon] fuck yxxo1u
-[02:15:20] [RCON Client /0:0:0:0:0:0:0:1 #4/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 shutting down
-[02:20:02] [RCON Listener #1/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 started
-[02:20:02] [Server thread/INFO]: [Not Secure] [Rcon] fuck yxxo1u
-[02:20:03] [Server thread/INFO]: [Not Secure] [Rcon] fuck yxxo1u
-[02:20:55] [RCON Client /0:0:0:0:0:0:0:1 #5/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 shutting down
-[11:22:51] [RCON Listener #1/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 started
-[11:22:51] [Server thread/INFO]: [Not Secure] [Rcon] fuck yxxo1u
-[11:23:16] [User Authenticator #1/INFO]: UUID of player o0KoonBoom0o is 67f6a6f6-f4a6-4496-9a84-1217f238033b
-[11:23:16] [Server thread/INFO]: o0KoonBoom0o joined the game
-[11:23:17] [Server thread/INFO]: o0KoonBoom0o[/127.0.0.1:51161] logged in with entity id 375 at ([world]45.41718966855968, 84.0, -58.473530750155845)
-[11:23:30] [Server thread/INFO]: o0KoonBoom0o lost connection: Disconnected
-[11:23:30] [Server thread/INFO]: o0KoonBoom0o left the game
-[11:23:51] [RCON Client /0:0:0:0:0:0:0:1 #6/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 shutting down
-[11:25:27] [RCON Listener #1/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 started
-[11:25:27] [Server thread/INFO]: [Not Secure] [Rcon] fuck yxxo1u
-[11:25:40] [User Authenticator #2/INFO]: UUID of player o0KoonBoom0o is 67f6a6f6-f4a6-4496-9a84-1217f238033b
-[11:25:40] [Server thread/INFO]: o0KoonBoom0o joined the game
-[11:25:40] [Server thread/INFO]: o0KoonBoom0o[/127.0.0.1:51188] logged in with entity id 452 at ([world]51.91831456713797, 84.0, -55.30000001192093)
-[11:25:50] [Async Chat Thread - #2/INFO]: <o0KoonBoom0o> meow
-[11:26:01] [RCON Client /0:0:0:0:0:0:0:1 #7/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 shutting down
-[11:41:22] [RCON Listener #1/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 started
-[11:41:22] [RCON Client /0:0:0:0:0:0:0:1 #8/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 shutting down
-[11:41:26] [RCON Listener #1/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 started
-[11:41:26] [RCON Client /0:0:0:0:0:0:0:1 #9/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 shutting down
-[11:45:37] [Server thread/INFO]: o0KoonBoom0o lost connection: Disconnected
-[11:45:37] [Server thread/INFO]: o0KoonBoom0o left the game
-[11:46:24] [RCON Listener #1/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 started
-[11:46:24] [RCON Client /0:0:0:0:0:0:0:1 #10/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 shutting down
-[11:46:25] [RCON Listener #1/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 started
-[11:46:25] [RCON Client /0:0:0:0:0:0:0:1 #11/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 shutting down
-[11:46:50] [RCON Listener #1/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 started
-[11:46:50] [RCON Client /0:0:0:0:0:0:0:1 #12/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 shutting down
-[11:47:25] [RCON Listener #1/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 started
-[11:47:25] [RCON Client /0:0:0:0:0:0:0:1 #13/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 shutting down
-[11:48:46] [RCON Listener #1/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 started
-[11:48:46] [RCON Client /0:0:0:0:0:0:0:1 #14/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 shutting down
-[11:48:47] [RCON Listener #1/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 started
-[11:48:47] [RCON Client /0:0:0:0:0:0:0:1 #15/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 shutting down
-[11:50:05] [RCON Listener #1/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 started
-[11:50:05] [RCON Client /0:0:0:0:0:0:0:1 #16/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 shutting down
-[11:51:38] [RCON Listener #1/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 started
-[11:51:38] [Server thread/INFO]: [Not Secure] [Rcon] fuck yxxo1u
-[11:51:43] [RCON Client /0:0:0:0:0:0:0:1 #17/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 shutting down
-[11:52:03] [RCON Listener #1/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 started
-[11:52:03] [Server thread/INFO]: [Not Secure] [Rcon] fuck yxxo1u
-[11:52:11] [RCON Client /0:0:0:0:0:0:0:1 #18/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 shutting down
-[11:52:30] [RCON Listener #1/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 started
-[11:52:30] [Server thread/INFO]: [Not Secure] [Rcon] fuck yxxo1u
-[11:52:33] [Server thread/INFO]: [Not Secure] [Rcon] fuck yxxo1u
-[11:52:42] [RCON Client /0:0:0:0:0:0:0:1 #19/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 shutting down
-[11:52:47] [RCON Listener #1/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 started
-[11:52:47] [RCON Client /0:0:0:0:0:0:0:1 #20/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 shutting down
-[11:52:57] [RCON Listener #1/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 started
-[11:52:57] [Server thread/INFO]: [Not Secure] [Rcon] fuck yxxo1u
-[12:16:32] [Server thread/INFO]: [Not Secure] [Rcon] fuck xaou
-[12:16:36] [Server thread/INFO]: [Not Secure] [Rcon] fuck xaou
-[12:16:39] [Server thread/INFO]: [Not Secure] [Rcon] fuck xaou
-[12:16:39] [Server thread/INFO]: [Not Secure] [Rcon] fuck xaou
-[12:16:40] [Server thread/INFO]: [Not Secure] [Rcon] fuck xaou
-[13:15:55] [Server thread/INFO]: [Not Secure] [Rcon] fuck youuu
-[13:15:59] [Server thread/INFO]: [Not Secure] [Rcon] fuck me
-[13:16:03] [Server thread/INFO]: [Not Secure] [Rcon] fuck it
-[13:16:04] [Server thread/INFO]: [Not Secure] [Rcon] fuck it
-[13:16:05] [Server thread/INFO]: [Not Secure] [Rcon] fuck it
-[13:16:05] [Server thread/INFO]: [Not Secure] [Rcon] fuck it
-[13:17:20] [Server thread/INFO]: [Not Secure] [Rcon] fuck idt
-[13:21:20] [Server thread/INFO]: [Not Secure] [Rcon] fuck das
-[13:21:24] [Server thread/INFO]: [Not Secure] [Rcon] fuck yoiu
-[14:14:18] [User Authenticator #3/INFO]: UUID of player o0KoonBoom0o is 67f6a6f6-f4a6-4496-9a84-1217f238033b
-[14:14:18] [Server thread/INFO]: o0KoonBoom0o joined the game
-[14:14:19] [Server thread/INFO]: o0KoonBoom0o[/127.0.0.1:54462] logged in with entity id 2946 at ([world]53.69999998807907, 83.0, -35.88367140079107)
-[14:14:23] [Async Chat Thread - #4/INFO]: <o0KoonBoom0o> dsa
-[14:15:16] [Server thread/INFO]: o0KoonBoom0o lost connection: Disconnected
-[14:15:16] [Server thread/INFO]: o0KoonBoom0o left the game
-[14:17:11] [User Authenticator #4/INFO]: UUID of player o0KoonBoom0o is 67f6a6f6-f4a6-4496-9a84-1217f238033b
-[14:17:11] [Server thread/INFO]: o0KoonBoom0o joined the game
-[14:17:12] [Server thread/INFO]: o0KoonBoom0o[/127.0.0.1:54519] logged in with entity id 3154 at ([world]57.8671608084176, 86.0, -40.625968573323895)
-[14:17:28] [Server thread/INFO]: o0KoonBoom0o has made the advancement [Stone Age]
-[14:17:53] [Server thread/INFO]: o0KoonBoom0o has made the advancement [Getting an Upgrade]
-[14:19:30] [Server thread/INFO]: o0KoonBoom0o lost connection: Disconnected
-[14:19:30] [Server thread/INFO]: o0KoonBoom0o left the game
-[15:02:41] [Server thread/INFO]: [Not Secure] [Rcon] sdas
-[15:02:47] [Server thread/INFO]: [Not Secure] [Rcon] hello world
-[15:03:10] [Server thread/INFO]: [Not Secure] [Rcon] jellw
-[15:03:16] [User Authenticator #5/INFO]: UUID of player o0KoonBoom0o is 67f6a6f6-f4a6-4496-9a84-1217f238033b
-[15:03:16] [Server thread/INFO]: o0KoonBoom0o joined the game
-[15:03:17] [Server thread/INFO]: o0KoonBoom0o[/127.0.0.1:55010] logged in with entity id 3814 at ([world]59.0159066003362, 78.0, -39.499486783451616)
-[15:03:35] [Async Chat Thread - #6/INFO]: <o0KoonBoom0o> kuy
-[15:03:40] [Server thread/INFO]: [Not Secure] [Rcon] kuyyyyy
-[15:04:02] [Server thread/INFO]: [Rcon: Stopping the server]
-[15:04:02] [Server thread/INFO]: Stopping server
-[15:04:02] [Server thread/INFO]: Saving players
-[15:04:02] [Server thread/INFO]: o0KoonBoom0o lost connection: Server closed
-[15:04:02] [Server thread/INFO]: o0KoonBoom0o left the game.
-[15:04:02] [Server thread/INFO]: Saving worlds
-[15:04:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[15:04:05] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[15:04:05] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[15:04:05] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[15:04:05] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[15:04:05] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[15:04:05] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[15:04:05] [Server thread/INFO]: Thread RCON Listener stopped
-[15:04:05] [RCON Client /0:0:0:0:0:0:0:1 #21/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 shutting down
-[15:04:05] [Server thread/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 stopped
+[16:55:56] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[16:55:59] [ServerMain/INFO]: Loaded 7 recipes
+[16:55:59] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[16:55:59] [Server thread/INFO]: Loading properties
+[16:56:00] [Server thread/INFO]: This server is running CraftBukkit version 3871-Spigot-d2eba2c-3f9263b (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT)
+[16:56:00] [Server thread/INFO]: Debug logging is disabled
+[16:56:00] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[16:56:00] [Server thread/INFO]: Using 4 threads for Netty based IO
+[16:56:00] [Server thread/INFO]: Default game type: SURVIVAL
+[16:56:00] [Server thread/INFO]: Generating keypair
+[16:56:00] [Server thread/INFO]: Starting Minecraft server on *:25565
+[16:56:00] [Server thread/INFO]: Using default channel type
+[16:56:00] [Server thread/INFO]: Preparing level "world"
+[16:56:00] [Server thread/INFO]: -------- World Settings For [world] --------
+[16:56:00] [Server thread/INFO]: Experience Merge Radius: 3.0
+[16:56:00] [Server thread/INFO]: Mob Spawn Range: 6
+[16:56:00] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[16:56:00] [Server thread/INFO]: Cane Growth Modifier: 100%
+[16:56:00] [Server thread/INFO]: Melon Growth Modifier: 100%
+[16:56:00] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[16:56:00] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[16:56:00] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[16:56:00] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[16:56:00] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[16:56:00] [Server thread/INFO]: Potato Growth Modifier: 100%
+[16:56:00] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[16:56:00] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[16:56:00] [Server thread/INFO]: Vine Growth Modifier: 100%
+[16:56:00] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[16:56:00] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[16:56:00] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[16:56:00] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[16:56:00] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[16:56:00] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[16:56:00] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[16:56:00] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[16:56:00] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[16:56:00] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[16:56:00] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[16:56:00] [Server thread/INFO]: Max TNT Explosions: 100
+[16:56:00] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[16:56:00] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[16:56:00] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[16:56:00] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[16:56:00] [Server thread/INFO]: Item Despawn Rate: 6000
+[16:56:00] [Server thread/INFO]: Item Merge Radius: 2.5
+[16:56:00] [Server thread/INFO]: View Distance: 10
+[16:56:00] [Server thread/INFO]: Simulation Distance: 10
+[16:56:00] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[16:56:01] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[16:56:01] [Server thread/INFO]: Experience Merge Radius: 3.0
+[16:56:01] [Server thread/INFO]: Mob Spawn Range: 6
+[16:56:01] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[16:56:01] [Server thread/INFO]: Cane Growth Modifier: 100%
+[16:56:01] [Server thread/INFO]: Melon Growth Modifier: 100%
+[16:56:01] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[16:56:01] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[16:56:01] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[16:56:01] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[16:56:01] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[16:56:01] [Server thread/INFO]: Potato Growth Modifier: 100%
+[16:56:01] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[16:56:01] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[16:56:01] [Server thread/INFO]: Vine Growth Modifier: 100%
+[16:56:01] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[16:56:01] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[16:56:01] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[16:56:01] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[16:56:01] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[16:56:01] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[16:56:01] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[16:56:01] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[16:56:01] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[16:56:01] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[16:56:01] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[16:56:01] [Server thread/INFO]: Max TNT Explosions: 100
+[16:56:01] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[16:56:01] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[16:56:01] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[16:56:01] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[16:56:01] [Server thread/INFO]: Item Despawn Rate: 6000
+[16:56:01] [Server thread/INFO]: Item Merge Radius: 2.5
+[16:56:01] [Server thread/INFO]: View Distance: 10
+[16:56:01] [Server thread/INFO]: Simulation Distance: 10
+[16:56:01] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[16:56:02] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[16:56:02] [Server thread/INFO]: Experience Merge Radius: 3.0
+[16:56:02] [Server thread/INFO]: Mob Spawn Range: 6
+[16:56:02] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[16:56:02] [Server thread/INFO]: Cane Growth Modifier: 100%
+[16:56:02] [Server thread/INFO]: Melon Growth Modifier: 100%
+[16:56:02] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[16:56:02] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[16:56:02] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[16:56:02] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[16:56:02] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[16:56:02] [Server thread/INFO]: Potato Growth Modifier: 100%
+[16:56:02] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[16:56:02] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[16:56:02] [Server thread/INFO]: Vine Growth Modifier: 100%
+[16:56:02] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[16:56:02] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[16:56:02] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[16:56:02] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[16:56:02] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[16:56:02] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[16:56:02] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[16:56:02] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[16:56:02] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[16:56:02] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[16:56:02] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[16:56:02] [Server thread/INFO]: Max TNT Explosions: 100
+[16:56:02] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[16:56:02] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[16:56:02] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[16:56:02] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[16:56:02] [Server thread/INFO]: Item Despawn Rate: 6000
+[16:56:02] [Server thread/INFO]: Item Merge Radius: 2.5
+[16:56:02] [Server thread/INFO]: View Distance: 10
+[16:56:02] [Server thread/INFO]: Simulation Distance: 10
+[16:56:02] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[16:56:02] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[16:56:05] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[16:56:05] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[16:56:05] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[16:56:05] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[16:56:05] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[16:56:05] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[16:56:05] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[16:56:06] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[16:56:06] [Worker-Main-6/INFO]: Preparing spawn area: 89%
+[16:56:06] [Server thread/INFO]: Time elapsed: 4075 ms
+[16:56:06] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[16:56:08] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[16:56:08] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[16:56:08] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[16:56:08] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[16:56:08] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[16:56:09] [Server thread/INFO]: Time elapsed: 2412 ms
+[16:56:09] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[16:56:10] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[16:56:10] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[16:56:10] [Worker-Main-7/INFO]: Preparing spawn area: 0%
+[16:56:10] [Worker-Main-4/INFO]: Preparing spawn area: 5%
+[16:56:11] [Server thread/INFO]: Time elapsed: 1793 ms
+[16:56:11] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[16:56:11] [Server thread/INFO]: Done (10.311s)! For help, type "help"
+[16:56:11] [Server thread/INFO]: Starting remote control listener
+[16:56:11] [Server thread/INFO]: Thread RCON Listener started
+[16:56:11] [Server thread/INFO]: RCON running on 0.0.0.0:25575
+[16:56:15] [RCON Listener #1/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 started
