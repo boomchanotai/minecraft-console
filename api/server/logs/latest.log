@@ -203,3 +203,37 @@
 [11:25:40] [Server thread/INFO]: o0KoonBoom0o[/127.0.0.1:51188] logged in with entity id 452 at ([world]51.91831456713797, 84.0, -55.30000001192093)
 [11:25:50] [Async Chat Thread - #2/INFO]: <o0KoonBoom0o> meow
 [11:26:01] [RCON Client /0:0:0:0:0:0:0:1 #7/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 shutting down
+[11:41:22] [RCON Listener #1/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 started
+[11:41:22] [RCON Client /0:0:0:0:0:0:0:1 #8/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 shutting down
+[11:41:26] [RCON Listener #1/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 started
+[11:41:26] [RCON Client /0:0:0:0:0:0:0:1 #9/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 shutting down
+[11:45:37] [Server thread/INFO]: o0KoonBoom0o lost connection: Disconnected
+[11:45:37] [Server thread/INFO]: o0KoonBoom0o left the game
+[11:46:24] [RCON Listener #1/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 started
+[11:46:24] [RCON Client /0:0:0:0:0:0:0:1 #10/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 shutting down
+[11:46:25] [RCON Listener #1/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 started
+[11:46:25] [RCON Client /0:0:0:0:0:0:0:1 #11/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 shutting down
+[11:46:50] [RCON Listener #1/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 started
+[11:46:50] [RCON Client /0:0:0:0:0:0:0:1 #12/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 shutting down
+[11:47:25] [RCON Listener #1/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 started
+[11:47:25] [RCON Client /0:0:0:0:0:0:0:1 #13/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 shutting down
+[11:48:46] [RCON Listener #1/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 started
+[11:48:46] [RCON Client /0:0:0:0:0:0:0:1 #14/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 shutting down
+[11:48:47] [RCON Listener #1/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 started
+[11:48:47] [RCON Client /0:0:0:0:0:0:0:1 #15/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 shutting down
+[11:50:05] [RCON Listener #1/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 started
+[11:50:05] [RCON Client /0:0:0:0:0:0:0:1 #16/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 shutting down
+[11:51:38] [RCON Listener #1/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 started
+[11:51:38] [Server thread/INFO]: [Not Secure] [Rcon] fuck yxxo1u
+[11:51:43] [RCON Client /0:0:0:0:0:0:0:1 #17/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 shutting down
+[11:52:03] [RCON Listener #1/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 started
+[11:52:03] [Server thread/INFO]: [Not Secure] [Rcon] fuck yxxo1u
+[11:52:11] [RCON Client /0:0:0:0:0:0:0:1 #18/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 shutting down
+[11:52:30] [RCON Listener #1/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 started
+[11:52:30] [Server thread/INFO]: [Not Secure] [Rcon] fuck yxxo1u
+[11:52:33] [Server thread/INFO]: [Not Secure] [Rcon] fuck yxxo1u
+[11:52:42] [RCON Client /0:0:0:0:0:0:0:1 #19/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 shutting down
+[11:52:47] [RCON Listener #1/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 started
+[11:52:47] [RCON Client /0:0:0:0:0:0:0:1 #20/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 shutting down
+[11:52:57] [RCON Listener #1/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 started
+[11:52:57] [Server thread/INFO]: [Not Secure] [Rcon] fuck yxxo1u

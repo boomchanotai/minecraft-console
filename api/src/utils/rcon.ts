@@ -1,5 +1,7 @@
 import { BadRequestException } from '@nestjs/common';
 import { Rcon } from 'rcon-client';
+import * as dotenv from 'dotenv';
+dotenv.config();
 
 const rcon = new Rcon({
   host: process.env.RCON_HOST || 'localhost',
