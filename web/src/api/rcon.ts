@@ -8,4 +8,10 @@ const sendCommand = async (command: string) => {
   return res.data;
 };
 
-export { sendCommand };
+const serverOnlineStatus = async () => {
+  const res = await axios.get(`${import.meta.env.VITE_API_URL}/rcon/status`);
+
+  return res.data;
+};
+
+export { sendCommand, serverOnlineStatus };
