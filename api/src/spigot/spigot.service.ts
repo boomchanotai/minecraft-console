@@ -22,6 +22,7 @@ export class SpigotService {
         if (err) {
           reject('Error reading file');
         }
+
         const logs = data
           .split('\n')
           .filter((line) => line !== '')

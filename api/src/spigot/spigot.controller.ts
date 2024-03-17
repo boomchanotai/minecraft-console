@@ -5,9 +5,9 @@ import { MessageEvent } from 'src/dto/sse.dto';
 import {
   SpigotGetLogsResponse,
   SpigotStartServerResponse,
-  SpigotStopServerResponse,
 } from 'src/dto/spigot.dto';
 import { RconService } from 'src/rcon/rcon.service';
+import { RconSendCommandResponse } from 'src/dto/rcon.dto';
 
 @Controller('/spigot')
 export class SpigotController {
@@ -35,7 +35,7 @@ export class SpigotController {
   }
 
   @Post('/stop')
-  async stopServer(): Promise<SpigotStopServerResponse> {
+  async stopServer(): Promise<RconSendCommandResponse> {
     return await this.rconService.sendCommand('stop');
   }
 }
