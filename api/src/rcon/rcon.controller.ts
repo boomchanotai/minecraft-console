@@ -7,6 +7,7 @@ import {
 } from '@nestjs/common';
 import { RconService } from './rcon.service';
 import {
+  RconPlayersResponse,
   RconSendCommandBody,
   RconSendCommandResponse,
   RconStatusResponse,
@@ -17,8 +18,8 @@ export class RconController {
   constructor(private readonly rconService: RconService) {}
 
   @Get('players')
-  async getPlayers(): Promise<RconSendCommandResponse> {
-    return await this.rconService.sendCommand('list');
+  async getPlayers(): Promise<RconPlayersResponse> {
+    return await this.rconService.getPlayers();
   }
 
   @Get('status')

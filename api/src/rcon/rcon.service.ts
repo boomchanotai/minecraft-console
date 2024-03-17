@@ -1,5 +1,9 @@
 import { Injectable } from '@nestjs/common';
-import { RconSendCommandResponse, RconStatusResponse } from 'src/dto/rcon.dto';
+import {
+  RconPlayersResponse,
+  RconSendCommandResponse,
+  RconStatusResponse,
+} from 'src/dto/rcon.dto';
 import { rcon, rconConnect, rconOnlineStatus } from 'src/utils/rcon';
 
 @Injectable()
@@ -11,6 +15,23 @@ export class RconService {
     return {
       status: true,
       message: res,
+    };
+  }
+
+  async getPlayers(): Promise<RconPlayersResponse> {
+    const res = await this.sendCommand('list');
+
+    const players = Number(
+      res.message.split(' ')[2].replace('§c', '').replace('§6', ''),
+    );
+    const maxPlayers =
+      Number(res.message.split(' ')[6].replace('§c', '').replace('§6', '')) ||
+      Number(res.message.split(' ')[7].replace('§c', '').replace('§6', ''));
+
+    return {
+      status: true,
+      players: players,
+      maxPlayers: maxPlayers,
     };
   }
 
