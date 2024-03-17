@@ -5,7 +5,7 @@ const useServerOnlineStatus = () => {
   return useQuery({
     queryKey: ["serverOnlineStatus"],
     queryFn: () => serverOnlineStatus(),
-    refetchInterval: 10000,
+    refetchInterval: 5000,
   });
 };
 

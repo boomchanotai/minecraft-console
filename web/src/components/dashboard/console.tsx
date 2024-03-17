@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button";
 import { useForm } from "react-hook-form";
 import { useCallback, useEffect, useRef, useState } from "react";
 import { useSendCommand } from "@/hook/mutation/useSendCommand";
+import useServerOnlineStatus from "@/hook/queries/useServerOnlineStatus";
 
 interface CommandForm {
   command: string;
@@ -11,6 +12,8 @@ interface CommandForm {
 const Console = () => {
   const { register, handleSubmit, reset } = useForm<CommandForm>();
   const { mutate } = useSendCommand();
+
+  const { data: serverOnlineStatus, isLoading } = useServerOnlineStatus();
 
   const consoleRef = useRef(null);
   const [logs, setLogs] = useState<string[]>([]);
@@ -24,6 +27,8 @@ const Console = () => {
   );
 
   useEffect(() => {
+    if (isLoading || !serverOnlineStatus.status) return;
+
     const sse = new EventSource(
       `${import.meta.env.VITE_API_URL}/spigot/console`
     );
@@ -41,7 +46,7 @@ const Console = () => {
     return () => {
       sse.close();
     };
-  }, []);
+  }, [isLoading, serverOnlineStatus]);
 
   useEffect(() => {
     if (consoleRef.current && logs.length > 0) {
