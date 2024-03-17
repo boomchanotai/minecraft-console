@@ -19,6 +19,14 @@ export class RconService {
   }
 
   async getPlayers(): Promise<RconPlayersResponse> {
+    if (rcon.authenticated === false) {
+      return {
+        status: false,
+        players: 0,
+        maxPlayers: 0,
+      };
+    }
+
     const res = await this.sendCommand('list');
 
     const players = Number(
