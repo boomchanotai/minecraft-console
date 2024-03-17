@@ -251,3 +251,40 @@
 [13:17:20] [Server thread/INFO]: [Not Secure] [Rcon] fuck idt
 [13:21:20] [Server thread/INFO]: [Not Secure] [Rcon] fuck das
 [13:21:24] [Server thread/INFO]: [Not Secure] [Rcon] fuck yoiu
+[14:14:18] [User Authenticator #3/INFO]: UUID of player o0KoonBoom0o is 67f6a6f6-f4a6-4496-9a84-1217f238033b
+[14:14:18] [Server thread/INFO]: o0KoonBoom0o joined the game
+[14:14:19] [Server thread/INFO]: o0KoonBoom0o[/127.0.0.1:54462] logged in with entity id 2946 at ([world]53.69999998807907, 83.0, -35.88367140079107)
+[14:14:23] [Async Chat Thread - #4/INFO]: <o0KoonBoom0o> dsa
+[14:15:16] [Server thread/INFO]: o0KoonBoom0o lost connection: Disconnected
+[14:15:16] [Server thread/INFO]: o0KoonBoom0o left the game
+[14:17:11] [User Authenticator #4/INFO]: UUID of player o0KoonBoom0o is 67f6a6f6-f4a6-4496-9a84-1217f238033b
+[14:17:11] [Server thread/INFO]: o0KoonBoom0o joined the game
+[14:17:12] [Server thread/INFO]: o0KoonBoom0o[/127.0.0.1:54519] logged in with entity id 3154 at ([world]57.8671608084176, 86.0, -40.625968573323895)
+[14:17:28] [Server thread/INFO]: o0KoonBoom0o has made the advancement [Stone Age]
+[14:17:53] [Server thread/INFO]: o0KoonBoom0o has made the advancement [Getting an Upgrade]
+[14:19:30] [Server thread/INFO]: o0KoonBoom0o lost connection: Disconnected
+[14:19:30] [Server thread/INFO]: o0KoonBoom0o left the game
+[15:02:41] [Server thread/INFO]: [Not Secure] [Rcon] sdas
+[15:02:47] [Server thread/INFO]: [Not Secure] [Rcon] hello world
+[15:03:10] [Server thread/INFO]: [Not Secure] [Rcon] jellw
+[15:03:16] [User Authenticator #5/INFO]: UUID of player o0KoonBoom0o is 67f6a6f6-f4a6-4496-9a84-1217f238033b
+[15:03:16] [Server thread/INFO]: o0KoonBoom0o joined the game
+[15:03:17] [Server thread/INFO]: o0KoonBoom0o[/127.0.0.1:55010] logged in with entity id 3814 at ([world]59.0159066003362, 78.0, -39.499486783451616)
+[15:03:35] [Async Chat Thread - #6/INFO]: <o0KoonBoom0o> kuy
+[15:03:40] [Server thread/INFO]: [Not Secure] [Rcon] kuyyyyy
+[15:04:02] [Server thread/INFO]: [Rcon: Stopping the server]
+[15:04:02] [Server thread/INFO]: Stopping server
+[15:04:02] [Server thread/INFO]: Saving players
+[15:04:02] [Server thread/INFO]: o0KoonBoom0o lost connection: Server closed
+[15:04:02] [Server thread/INFO]: o0KoonBoom0o left the game.
+[15:04:02] [Server thread/INFO]: Saving worlds
+[15:04:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[15:04:05] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[15:04:05] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[15:04:05] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[15:04:05] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[15:04:05] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[15:04:05] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[15:04:05] [Server thread/INFO]: Thread RCON Listener stopped
+[15:04:05] [RCON Client /0:0:0:0:0:0:0:1 #21/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 shutting down
+[15:04:05] [Server thread/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 stopped

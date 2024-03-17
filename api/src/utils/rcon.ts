@@ -21,4 +21,16 @@ const rconConnect = async () => {
   return rcon;
 };
 
-export { rcon, rconConnect };
+const rconOnlineStatus = async () => {
+  if (rcon.authenticated === false) {
+    try {
+      await rcon.connect();
+    } catch (_) {
+      return { status: false };
+    }
+  }
+
+  return { status: true };
+};
+
+export { rcon, rconConnect, rconOnlineStatus };

@@ -2,4 +2,17 @@ interface RconSendCommandBody {
   command: string;
 }
 
-export type { RconSendCommandBody };
+interface RconSendCommandResponse {
+  status: boolean;
+  message: string;
+}
+
+interface RconStatusResponse {
+  status: boolean;
+}
+
+export type {
+  RconSendCommandBody,
+  RconSendCommandResponse,
+  RconStatusResponse,
+};
